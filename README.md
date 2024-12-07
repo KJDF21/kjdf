@@ -1,3 +1,4 @@
+html_content = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,3 +46,62 @@
     </footer>
 </body>
 </html>
+"""
+
+# CSS content for styling the website
+css_content = """
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background: #005bb5;
+    color: white;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background: #f4f4f4;
+}
+
+section h2 {
+    color: #005bb5;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+"""
